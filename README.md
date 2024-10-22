@@ -32,29 +32,29 @@ This project uses Terraform to provision an Amazon Elastic Kubernetes Service (E
 
 2. **Navigate into the repository**:
 
- ```bash
-cd kubernetes-aws-terraform-deployment
+   ```bash
+   cd kubernetes-aws-terraform-deployment
 
 3. **Initialize Terraform**:
 
- ```bash
-terraform init
+   ```bash
+   terraform init
 
 4. **Deploy the infrastructure**:
 
- ```bash
-terraform apply
+   ```bash
+   terraform apply
 
 5. **Deploy Kubernetes resources**:
 
- ```bash
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
+   ```bash
+   kubectl apply -f deployment.yaml
+   kubectl apply -f service.yaml
 
 6. **Verify NGINX deployment**:
 
- ```bash
-kubectl get services
+   ```bash
+   kubectl get services
 
 Access the NGINX web server via the external IP provided by the LoadBalancer service.
 
