@@ -28,7 +28,7 @@ This project uses Terraform to provision an Amazon Elastic Kubernetes Service (E
 1. **Clone the repository**:
    
    ```bash
-   git clone https://github.com/<your-username>/kubernetes-aws-terraform-deployment.git
+   https://github.com/ThabangKhasebe/kubernetes-aws-terraform-deployment.git
 
 2. **Navigate into the repository**:
 
